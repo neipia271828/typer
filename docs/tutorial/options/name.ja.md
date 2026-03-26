@@ -22,7 +22,7 @@ def main(user_name: Annotated[Optional[str], typer.Option()] = None):
 --user-name
 ```
 
-ただし、必要ならこれをカスタマイズできます。
+ただし、必要ならこれをカスタマイズすることができます。
 
 先ほどのように関数パラメータ名が `user_name` でも、*CLI オプション* は `--name` にしたいとしましょう。
 
@@ -161,7 +161,7 @@ myproject/intro.md
 // しかし -f を前に置くと
 $ tar -fxv myproject.tar.gz
 
-// ひどいエラーになる
+// エラーになる
 tar: You must specify one of the blah, blah, error, error
 ```
 
