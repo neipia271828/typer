@@ -49,6 +49,7 @@ Changelog = "https://typer.tiangolo.com/release-notes/"
 
 [project.scripts]
 typer = "typer.cli:main"
+preview = "scripts.preview:main"
 
 [dependency-groups]
 dev = [

@@ -91,30 +91,30 @@ nav:
   - Typer: index.md
   - features.md
   - Tutorial - User Guide:
-      - tutorial/index.md
-      - environment-variables.md
+      - tutorial/index.ja.md
+      - environment-variables.ja.md
       - virtual-environments.md
-      - tutorial/install.md
-      - tutorial/first-steps.md
-      - tutorial/typer-app.md
-      - tutorial/printing.md
-      - tutorial/terminating.md
+      - tutorial/install.ja.md
+      - tutorial/first-steps.ja.md
+      - tutorial/typer-app.ja.md
+      - tutorial/printing.ja.md
+      - tutorial/terminating.ja.md
       - CLI Arguments:
-          - tutorial/arguments/index.md
-          - tutorial/arguments/optional.md
-          - tutorial/arguments/default.md
-          - tutorial/arguments/help.md
-          - tutorial/arguments/envvar.md
-          - tutorial/arguments/other-uses.md
+          - tutorial/arguments/index.ja.md
+          - tutorial/arguments/optional.ja.md
+          - tutorial/arguments/default.ja.md
+          - tutorial/arguments/help.ja.md
+          - tutorial/arguments/envvar.ja.md
+          - tutorial/arguments/other-uses.ja.md
       - CLI Options:
           - tutorial/options/index.md
           - tutorial/options/help.md
           - tutorial/options/required.md
-          - tutorial/options/prompt.md
-          - tutorial/options/password.md
-          - tutorial/options/name.md
-          - tutorial/options/callback-and-context.md
-          - tutorial/options/version.md
+          - tutorial/options/prompt.ja.md
+          - tutorial/options/password.ja.md
+          - tutorial/options/name.ja.md
+          - tutorial/options/callback-and-context.ja.md
+          - tutorial/options/version.ja.md
       - Commands:
           - tutorial/commands/index.md
           - tutorial/commands/arguments.md
@@ -247,8 +247,8 @@ extra_css:
   - css/custom.css
 
 extra_javascript:
-  - js/termynal.js
-  - js/custom.js
+  - js/termynal.js?v=20260403a
+  - js/custom.js?v=20260403a
 
 hooks:
   - scripts/mkdocs_hooks.py

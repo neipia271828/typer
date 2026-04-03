@@ -93,6 +93,20 @@ a[data-internal-link][target="_blank"]:not(:has(img)):not(.no-link-icon):not(.an
   content: none !important;
 }
 
+.md-select__link--active,
+.md-select__link--disabled {
+    display: block;
+}
+
+.md-select__link--active {
+    font-weight: 700;
+}
+
+.md-select__link--disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
 .shadow {
     box-shadow: 5px 5px 10px #999;
 }

@@ -141,6 +141,6 @@ async function main() {
     openLinksInNewTab();
 }
 
-document$.subscribe(() => {
-    main()
+document$.subscribe((sourceDocument) => {
+    main();
 })
