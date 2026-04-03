@@ -1,6 +1,5 @@
 {#-
-  Based on Material for MkDocs header partial, customized to show
-  page-specific language alternates from mkdocs hooks.
+  Based on Material for MkDocs header partial.
 -#}
 {% set class = "md-header" %}
 {% if "navigation.tabs.sticky" in features %}
@@ -42,9 +41,6 @@
     {% endif %}
     {% if not config.theme.palette is mapping %}
       {% include "partials/javascripts/palette.html" %}
-    {% endif %}
-    {% if language_alternates %}
-      {% include "partials/alternate.html" %}
     {% endif %}
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}

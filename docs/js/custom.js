@@ -136,67 +136,11 @@ function openLinksInNewTab() {
     });
 }
 
-function readLanguageAlternates(sourceDocument = document) {
-    const dataNode = sourceDocument.querySelector("#language-switcher-data");
-    const payload = dataNode?.dataset?.languageAlternates;
-    if (!payload) {
-        return null;
-    }
-    try {
-        return JSON.parse(payload);
-    } catch (_) {
-        return null;
-    }
-}
-
-function createLanguageSwitcherListItem(alt) {
-    const listItem = document.createElement("li");
-    listItem.className = "md-select__item";
-
-    const content = document.createElement(alt.available && !alt.selected ? "a" : "span");
-    content.className = "md-select__link";
-
-    if (alt.selected) {
-        content.classList.add("md-select__link--active");
-        content.setAttribute("aria-current", "page");
-    } else if (!alt.available) {
-        content.classList.add("md-select__link--disabled");
-        content.setAttribute("aria-disabled", "true");
-    } else {
-        content.href = alt.link;
-        content.hreflang = alt.lang;
-    }
-
-    content.textContent = alt.name;
-    listItem.append(content);
-    return listItem;
-}
-
-function syncLanguageSwitcher(sourceDocument = document) {
-    const currentSwitcher = document.querySelector("[data-md-component='language-switcher']");
-    const alternates = readLanguageAlternates(sourceDocument);
-
-    if (!currentSwitcher || !alternates) {
-        return;
-    }
-
-    const list = currentSwitcher.querySelector(".md-select__list");
-    if (!list) {
-        return;
-    }
-
-    list.replaceChildren(
-        ...alternates.map((alt) => createLanguageSwitcherListItem(alt))
-    );
-}
-
 async function main() {
-    syncLanguageSwitcher(document);
     setupTermynal();
     openLinksInNewTab();
 }
 
 document$.subscribe((sourceDocument) => {
-    syncLanguageSwitcher(sourceDocument);
     main();
 })
