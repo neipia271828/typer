@@ -247,8 +247,8 @@ extra_css:
   - css/custom.css
 
 extra_javascript:
-  - js/termynal.js
-  - js/custom.js
+  - js/termynal.js?v=20260403a
+  - js/custom.js?v=20260403a
 
 hooks:
   - scripts/mkdocs_hooks.py
