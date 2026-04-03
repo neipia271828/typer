@@ -93,7 +93,7 @@ nav:
   - Tutorial - User Guide:
       - tutorial/index.ja.md
       - environment-variables.ja.md
-      - virtual-environments.md
+      - virtual-environments.ja.md
       - tutorial/install.ja.md
       - tutorial/first-steps.ja.md
       - tutorial/typer-app.ja.md
