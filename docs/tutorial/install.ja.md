@@ -2,7 +2,7 @@
 
 最初のステップは **Typer** をインストールすることです。
 
-まず [virtual environment](../virtual-environments.md){.internal-link target=_blank} を作成して有効化し、そのうえで次のようにインストールしてください。
+まず [仮想環境](../virtual-environments.ja.md){.internal-link target=_blank} を作成して有効化し、そのうえで次のようにインストールしてください。
 
 <div class="termy">
 
