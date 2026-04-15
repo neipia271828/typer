@@ -240,7 +240,3 @@ Python をインストールするとき、`PATH` 環境変数を更新するか
 ```plaintext
 C:\Program Files\Python312\Scripts;C:\Program Files\Python312;C:\Windows\System32;C:\opt\custompython\bin
 ```
-*** Update File: /Users/suzukiakiramuki/projects/typer/mkdocs.yml
-@@
--      - environment-variables.md
-+      - environment-variables.ja.md
