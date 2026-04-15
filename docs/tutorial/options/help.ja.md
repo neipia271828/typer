@@ -14,7 +14,7 @@
 lastname: Annotated[str, typer.Option(help="this option does this and that")] = ""
 ```
 
-これでその *CLI オプション* 用の help を作れます。
+これで *CLI オプション* 用の help を作れます。
 
 `typer.Argument()` と同じく、**Typer** は関数パラメータのデフォルト値を使う古いスタイルもサポートしています。
 
@@ -97,7 +97,7 @@ $ python main.py --help
 
 将来のセクションでは、[Commands - Command Help](../commands/help.md#rich-markdown-and-markup){.internal-link target=_blank} を読むときに、*CLI オプション* の `help` でカスタム markup を使う方法を見ます。
 
-急いでいるならそこへ先に飛んでも構いませんが、そうでなければこのまま順番に読み進めるほうがよいでしょう。
+急いでいるなら先に飛んでも構いませんが、そうでなければこのまま順番に読み進めるほうがよいでしょう。
 
 <a id="hide-default-from-help"></a>
 
