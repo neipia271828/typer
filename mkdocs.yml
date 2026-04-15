@@ -116,14 +116,14 @@ nav:
           - tutorial/options/callback-and-context.ja.md
           - tutorial/options/version.ja.md
       - Commands:
-          - tutorial/commands/index.md
-          - tutorial/commands/arguments.md
-          - tutorial/commands/options.md
-          - tutorial/commands/help.md
-          - tutorial/commands/name.md
-          - tutorial/commands/callback.md
-          - tutorial/commands/one-or-multiple.md
-          - tutorial/commands/context.md
+          - tutorial/commands/index.ja.md
+          - tutorial/commands/arguments.ja.md
+          - tutorial/commands/options.ja.md
+          - tutorial/commands/help.ja.md
+          - tutorial/commands/name.ja.md
+          - tutorial/commands/callback.ja.md
+          - tutorial/commands/one-or-multiple.ja.md
+          - tutorial/commands/context.ja.md
       - tutorial/options-autocompletion.md
       - CLI Parameter Types:
           - tutorial/parameter-types/index.md
