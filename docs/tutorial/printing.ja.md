@@ -114,6 +114,8 @@ Rich には他にも多くの機能があります。たとえば次のドキュ
 
 最良のコマンドラインアプリケーションは、**Typer** と **Rich** を組み合わせることで実現できます。
 
+<a id="standard-output-and-standard-error"></a>
+
 ## "Standard Output" と "Standard Error"
 
 出力の仕組みを内部から見ると、**オペレーティングシステム**（Linux、Windows、macOS）は、CLI プログラムが "**standard output**" という "**仮想ファイル**" に **文字列を書き込んでいる** かのように扱います。

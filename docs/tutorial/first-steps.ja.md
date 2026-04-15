@@ -57,6 +57,8 @@ first-steps.md  intro.md
 
 これは、あとで出てくる **CLI option** とは少し異なります。
 
+<a id="add-a-cli-argument"></a>
+
 ## CLI 引数を追加する
 
 前の例を、`name` という引数を受け取るように更新します。
