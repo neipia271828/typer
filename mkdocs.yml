@@ -126,15 +126,15 @@ nav:
           - tutorial/commands/context.ja.md
       - tutorial/options-autocompletion.md
       - CLI Parameter Types:
-          - tutorial/parameter-types/index.md
-          - tutorial/parameter-types/number.md
-          - tutorial/parameter-types/bool.md
-          - tutorial/parameter-types/uuid.md
-          - tutorial/parameter-types/datetime.md
-          - tutorial/parameter-types/enum.md
-          - tutorial/parameter-types/path.md
-          - tutorial/parameter-types/file.md
-          - tutorial/parameter-types/custom-types.md
+          - tutorial/parameter-types/index.ja.md
+          - tutorial/parameter-types/number.ja.md
+          - tutorial/parameter-types/bool.ja.md
+          - tutorial/parameter-types/uuid.ja.md
+          - tutorial/parameter-types/datetime.ja.md
+          - tutorial/parameter-types/enum.ja.md
+          - tutorial/parameter-types/path.ja.md
+          - tutorial/parameter-types/file.ja.md
+          - tutorial/parameter-types/custom-types.ja.md
       - SubCommands - Command Groups:
           - tutorial/subcommands/index.md
           - tutorial/subcommands/add-typer.md
