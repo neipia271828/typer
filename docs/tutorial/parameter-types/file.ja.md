@@ -76,7 +76,7 @@ Config line: some more settings
 
 {* docs_src/parameter_types/file/tutorial002_an_py310.py hl[9:10] *}
 
-次のような人間が読めるテキストを書き込む用途です:
+次のような、人間が読めるテキストを書き込む用途です:
 
 ```
 some settings
