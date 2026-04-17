@@ -136,17 +136,17 @@ nav:
           - tutorial/parameter-types/file.md
           - tutorial/parameter-types/custom-types.md
       - SubCommands - Command Groups:
-          - tutorial/subcommands/index.md
-          - tutorial/subcommands/add-typer.md
-          - tutorial/subcommands/single-file.md
-          - tutorial/subcommands/nested-subcommands.md
-          - tutorial/subcommands/callback-override.md
-          - tutorial/subcommands/name-and-help.md
+          - tutorial/subcommands/index.ja.md
+          - tutorial/subcommands/add-typer.ja.md
+          - tutorial/subcommands/single-file.ja.md
+          - tutorial/subcommands/nested-subcommands.ja.md
+          - tutorial/subcommands/callback-override.ja.md
+          - tutorial/subcommands/name-and-help.ja.md
       - Multiple Values:
-          - tutorial/multiple-values/index.md
-          - tutorial/multiple-values/multiple-options.md
-          - tutorial/multiple-values/options-with-multiple-values.md
-          - tutorial/multiple-values/arguments-with-multiple-values.md
+          - tutorial/multiple-values/index.ja.md
+          - tutorial/multiple-values/multiple-options.ja.md
+          - tutorial/multiple-values/options-with-multiple-values.ja.md
+          - tutorial/multiple-values/arguments-with-multiple-values.ja.md
       - tutorial/prompt.md
       - tutorial/progressbar.md
       - tutorial/app-dir.md
