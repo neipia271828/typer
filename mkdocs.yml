@@ -147,7 +147,7 @@ nav:
           - tutorial/multiple-values/multiple-options.ja.md
           - tutorial/multiple-values/options-with-multiple-values.ja.md
           - tutorial/multiple-values/arguments-with-multiple-values.ja.md
-      - tutorial/prompt.md
+      - tutorial/prompt.ja.md
       - tutorial/progressbar.md
       - tutorial/app-dir.md
       - tutorial/launch.md
